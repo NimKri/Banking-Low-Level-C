@@ -1,0 +1,2 @@
+# online-banking-management-system
+This project is a demonstration of how *file locking*, *socket creation and communication* over socket takes place in a low level environment, the codebase is purely in c, with multiple modules serving as client, server, and a file servicing as a database, which has a structure based account information, this file is accessed by byte(record) level locking instead of the whole file, hence supporting multiple functionalities/users.
